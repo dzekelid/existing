@@ -7,11 +7,23 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykk
 x-kinRank: "8"
 x-alexaRank: "152167"
 tags: Existing
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/existing/master/_listings/lykke/apis.md
 specificationVersion: "0.14"
 apis:
+- name: Wallet_Api - Get API Account Exist
+  x-api-slug: apiaccountexist-get
+  description: Get api account exist.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
+  humanURL: https://lykke.com
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/existing/master/_listings/lykke/apiaccountexist-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/existing/master/_listings/lykke/apiaccountexist-get-openapi.md
 - name: Wallet_Api - Get API Account Exist
   x-api-slug: apiaccountexist-get
   description: Get api account exist.

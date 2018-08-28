@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: Coord
 x-complete: 1
@@ -14,4 +13,35 @@ produces:
 - application/json
 consumes:
 - application/json
----
+paths:
+  /{location_id}/session/{session_id}:
+    get:
+      summary: Retrieve an existing session
+      description: |-
+        Retrieve information about an existing session. This is useful to determine if/when an
+        existing session has been started or ended (via external, barcode mechanism, for example).
+        It may be polled to provide live feedback to an end user.
+
+        On success, the response will be the existing session:
+        ```
+          {
+            "id":1,
+            "start_time":"2018-04-12T00:14:20.292Z",
+            "user_id":"00000000-0000-0000-0000-000000000000"
+          }
+        ```
+      operationId: get_session
+      x-api-path-slug: location-idsessionsession-id-get
+      parameters:
+      - in: query
+        name: access_key
+        description: The API access key for the request
+      - in: query
+        name: No Name
+      responses:
+        200:
+          description: OK
+      tags:
+      - Retrieve
+      - Existing
+      - Session

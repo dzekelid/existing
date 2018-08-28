@@ -13,11 +13,24 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: "0"
 tags: Existing
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/existing/master/_listings/digitalocean/apis.md
 specificationVersion: "0.14"
 apis:
+- name: DigitalOcean API-V2 - Retrieve an existing certificate
+  x-api-slug: certificates892071a0bb9549bc80213afd67a210bf-get
+  description: "To show information about an existing certificate, send a GET request
+    to /v2/certificates/$CERTIFICATE_ID.\r\n\r\nThe response will be a JSON object
+    with a certificate key."
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/DO_Logo_Horizontal_Black-3500c326.png
+  humanURL: https://www.digitalocean.com
+  baseURL: https://example.com//
+  tags: Cloud, Compute, Hosting, API Provider, API Service Provider, Profiles, Service
+    API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/existing/master/_listings/digitalocean/certificates892071a0bb9549bc80213afd67a210bf-get-openapi.md
 - name: DigitalOcean API-V2 - Retrieve an existing Image by id
   x-api-slug: images63261821-get
   description: "To retrieve information about an image (public or private), send a

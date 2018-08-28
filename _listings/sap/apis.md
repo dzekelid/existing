@@ -7,11 +7,63 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28252-www-
 x-kinRank: "8"
 x-alexaRank: "1965"
 tags: Existing
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/existing/master/_listings/sap/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: SAP Translation Hub - The '/translate' resource enables you to get translations
+    of English short texts that exist in SAP Translation Hub.
+  x-api-slug: translate-post
+  description: Provides translations of short texts based on a combination of existing
+    texts and their translations that are used in SAP products and machine translation
+    capabilities.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28252-www-sap-com.jpg
+  humanURL: https://www.sap.com/index.html
+  baseURL: https://sandbox.api.sap.com//translationhub/api/v1
+  tags: SaaS, Technology, Enterprise, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/existing/master/_listings/sap/translate-post-openapi.md
+- name: SAP Translation Hub - The '/translate' resource enables you to get translations
+    of English short texts that exist in SAP Translation Hub.
+  x-api-slug: translate-post
+  description: Provides translations of short texts based on a combination of existing
+    texts and their translations that are used in SAP products and machine translation
+    capabilities.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28252-www-sap-com.jpg
+  humanURL: https://www.sap.com/index.html
+  baseURL: https://sandbox.api.sap.com//translationhub/api/v1
+  tags: SaaS, Technology, Enterprise, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/existing/master/_listings/sap/translate-post-openapi.md
+- name: SAP Translation Hub - The '/translate' resource enables you to get translations
+    of English short texts that exist in SAP Translation Hub.
+  x-api-slug: translate-post
+  description: Provides translations of short texts based on a combination of existing
+    texts and their translations that are used in SAP products and machine translation
+    capabilities.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28252-www-sap-com.jpg
+  humanURL: https://www.sap.com/index.html
+  baseURL: https://sandbox.api.sap.com//translationhub/api/v1
+  tags: SaaS, Technology, Enterprise, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/existing/master/_listings/sap/translate-post-openapi.md
+- name: SAP Translation Hub - The '/translate' resource enables you to get translations
+    of English short texts that exist in SAP Translation Hub.
+  x-api-slug: translate-post
+  description: Provides translations of short texts based on a combination of existing
+    texts and their translations that are used in SAP products and machine translation
+    capabilities.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28252-www-sap-com.jpg
+  humanURL: https://www.sap.com/index.html
+  baseURL: https://sandbox.api.sap.com//translationhub/api/v1
+  tags: SaaS, Technology, Enterprise, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/existing/master/_listings/sap/translate-post-openapi.md
 x-common:
 - type: x-website
   url: https://www.sap.com/index.html

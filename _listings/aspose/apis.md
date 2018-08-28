@@ -7,11 +7,25 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1865-aspos
 x-kinRank: "8"
 x-alexaRank: "59913"
 tags: Existing
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/existing/master/_listings/aspose/apis.md
 specificationVersion: "0.14"
 apis:
+- name: Aspose.Storage API - Get Storage Exist Path
+  x-api-slug: storageexistpath-get
+  description: The controller checks that the file or folder exists in the service
+    file storage.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1865-aspose.jpg
+  humanURL: http://www.aspose.com
+  baseURL: https://api.aspose.com//v1.1
+  tags: Documents, Target, Stack Network, SaaS, Technology, Enterprise, API Provider,
+    Conversions, Profiles, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/existing/master/_listings/aspose/storageexistpath-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/existing/master/_listings/aspose/storageexistpath-get-openapi.md
 - name: Aspose.Storage API - Get Storage Exist Path
   x-api-slug: storageexistpath-get
   description: The controller checks that the file or folder exists in the service

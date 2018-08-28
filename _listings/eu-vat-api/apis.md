@@ -14,11 +14,21 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: "0"
 tags: Existing
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/existing/master/_listings/eu-vat-api/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: VAT API - Update an existing invoice
+  x-api-slug: invoiceid-put
+  description: Update an existing invoice.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/vatapi-logo.png
+  humanURL: http://vatapi.com
+  baseURL: https://vatapi.com//v1
+  tags: VAT, EU, Taxes, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/existing/master/_listings/eu-vat-api/invoiceid-put-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://eu.bon.utis.api.gallery.streamdata.io

@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: SalesLoft
 x-complete: 1
@@ -107,4 +106,3 @@ paths:
       - Sales
       - Existing
       - Account
----

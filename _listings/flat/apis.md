@@ -9,11 +9,21 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: "0"
 tags: Existing
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/existing/master/_listings/flat/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Flat - Update an existing comment
+  x-api-slug: scoresscorecommentscomment-put
+  description: ""
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/flat-logo.png
+  humanURL: http://flat.io
+  baseURL: https://api.flat.io//v2
+  tags: API Provider, Music, Profiles, Relative Data, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/existing/master/_listings/flat/scoresscorecommentscomment-put-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://fitbit.api.gallery.streamdata.io
